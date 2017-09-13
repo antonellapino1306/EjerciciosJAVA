@@ -19,6 +19,7 @@ public class EjercicoUno {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("esto anda de maravilla");
         
     }
     
