@@ -19,7 +19,11 @@ public class EjercicoUno {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("esto anda de maravilla");
+        //sout es para mostrar lo siguiente       
+        System.out.println("esto funciona de maravilla");
+        // System.out.println("lalalalala");
+        // ese mensaje no va mas
+        
         
     }
     
