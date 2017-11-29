@@ -9,6 +9,14 @@ package ejemploobjetoscomprayventa;
  *
  * @author alumno
  */
-public class ArticuloComestible {
     
+public class ArtìculoComestible extends articulo {
+    
+    private Date _fechaVencimiento;
+
+    public articuloComestible(String nombre, int codigo, float costo, int stock,Date fechaVencimiento) {
+        super(nombre,codigo ,costo,stock);
+        this._fechaVencimiento=fechaVencimiento;
+    }
+   
 }
