@@ -9,6 +9,17 @@ package ejemploobjetoscomprayventa;
  *
  * @author alumno
  */
-public class ArticuloLiquido {
+public class ArticuloLiquido extends Artìculo{
+    
+    private float _litros;
+
+    public articuloLiquido(String nombre, Integer codigo, float costo,int stock,float litros) {
+        super(nombre, codigo,costo,stock);
+        this._litros=litros;
+    }
+    
+   
     
 }
+    
+
